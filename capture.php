@@ -9,8 +9,7 @@
     
     // echo "Login failed. Please try again.";
 
-?>
-<h1>Muduchutanga ponga ungalaya!</h1>
+?>You have been logged into Snap!</h1>
 <?php
 
 ?>
